@@ -1,4 +1,5 @@
 import './Header.css'
+import Link from './../link/Link'
 function Header(){
     return(
         <header>
@@ -8,16 +9,16 @@ function Header(){
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <Link texto='Home'/>
                     </li>
                     <li>
-                        <a href="#">Notícias</a>
+                        <Link texto='Notícia'/>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
+                        <Link texto='Sobre'/>
                     </li>
                     <li>
-                        <a href="#">Contatos</a>
+                        <Link texto='Contato'/>
                     </li>
                 </ul>
             </nav>
